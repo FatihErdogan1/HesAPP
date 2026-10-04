@@ -159,7 +159,7 @@ backups, SignalR hub), the React + TypeScript client, an xUnit test project and 
 - **Real-time sync that tolerates flaky Wi-Fi.** SignalR pushes changes to every device. Clients reconnect
   automatically, refresh after a reconnect and also poll every 20 seconds, so a silently dropped WebSocket cannot
   leave a tablet showing stale data.
-- **Tested.** 190 backend xUnit tests cover the controllers (orders, payments, customers, reports, Z-reports, menu,
+- **Tested.** 208 backend xUnit tests cover the controllers (orders, payments, customers, reports, Z-reports, menu,
   tables, staff, printing), session validation, PIN hashing, ESC/POS generation and concurrent order handling.
   Vitest unit tests cover the client's helper modules.
 
